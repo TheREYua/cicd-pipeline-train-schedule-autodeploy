@@ -58,7 +58,7 @@ pipeline {
                 branch 'master'
             }
             environment { 
-                KUBE_MASTER_IP = 35.174.241.120
+                KUBE_MASTER_IP = "35.174.241.120"
             }
             steps {
                 script {
